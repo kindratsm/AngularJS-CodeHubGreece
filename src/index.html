@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>AngularJS Initial Project</title>
+    <meta name="description" content="AngularJS Initial Project">
+    <meta name="author" content="skindrat">
+
+    <!-- build:css lib/style.min.css -->
+    <link rel="stylesheet" type="text/css" href="lib/style.css">
+    <!-- /build -->
+</head>
+
+<body>
+    <h1 style="color: green">This is header</h1>
+
+    <div>
+        <h2>Todo list</h2>
+        <ul id="todoList">
+        </ul>
+        <input type="text" id="newItem" style="width: 300px;" /><button type="button" onclick="addNewItem()">Add new
+            item</button>
+    </div>
+
+    <div>
+        <h2>User A details</h2>
+        <input value="User A" />
+        <p>
+            <a href="malito:usera@profilesw.com">usera@profilesw.com</a>
+        </p>
+        <p>
+            <img src="files/codehub-laptop.jpeg" height="150" />
+        </p>
+    </div>
+
+    <button type="button" onclick="sendHttpRequest(event)">Send Http Request</button>
+
+    <!-- build:js lib/script.min.js -->
+    <script type="text/javascript" src="lib/script.js"></script>
+    <!-- /build -->
+</body>
+
+</html>

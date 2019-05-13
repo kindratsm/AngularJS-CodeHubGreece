@@ -1,0 +1,26 @@
+{
+    "name": "angularjs-codehubgreece",
+    "description": "AngularJS Code.Hub Greece Training Project",
+    "license": "MIT",
+    "version": "1.0.0",
+    "main": "src/index.html",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kindratsm/AngularJS-CodeHubGreece.git"
+    },
+    "author": {
+        "name": "Stanislav Kindrat"
+    },
+    "devDependencies": {
+        "grunt": "latest",
+        "grunt-contrib-connect": "latest",
+        "grunt-contrib-clean": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-uglify-es": "latest",
+        "grunt-contrib-cssmin": "latest",
+        "grunt-contrib-htmlmin": "latest",
+        "grunt-contrib-copy": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-processhtml": "latest"
+    }
+}

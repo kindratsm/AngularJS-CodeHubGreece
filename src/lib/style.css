@@ -1,0 +1,28 @@
+h2, p, p a {
+    color: red;
+}
+
+ul {
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+ul li {
+    color: gray;
+    background: yellow;
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.list-item {
+    display: flex;
+}
+
+.list-check {
+    margin-left: auto;
+}

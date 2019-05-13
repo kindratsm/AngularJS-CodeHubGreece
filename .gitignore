@@ -1,0 +1,9 @@
+# ignore node modules
+/node_modules/
+
+# ignore build directories
+/build/
+/temp/
+
+# ignore package lock file
+package-lock.json
